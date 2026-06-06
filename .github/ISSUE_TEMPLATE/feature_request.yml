@@ -1,0 +1,31 @@
+name: Feature request
+description: Suggest an improvement to the solver, calibration flow, UI, or build process.
+title: "[Feature]: "
+labels:
+  - enhancement
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or workflow gap
+      description: Describe the task that is difficult or unsupported today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Describe the change and how users would interact with it.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation ideas
+      description: Note any test cases, printer setups, project files, or screenshots that would prove the feature works.
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Optional context on other approaches.
+

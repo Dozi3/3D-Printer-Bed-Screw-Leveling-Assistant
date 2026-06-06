@@ -1,0 +1,56 @@
+name: Bug report
+description: Report a reproducible problem in the application.
+title: "[Bug]: "
+labels:
+  - bug
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Include enough detail for someone else to reproduce the behavior from a clean checkout.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit
+      description: App version, release, or commit SHA.
+      placeholder: "V4 / commit SHA"
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the exact actions, mesh input, project file, or settings used.
+      placeholder: |
+        1. Open ...
+        2. Import ...
+        3. Run ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environment
+      description: OS, Python version, PySide6 version, and whether this was source or packaged executable.
+      placeholder: "Windows 11, Python 3.12, source checkout"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
+      description: Paste relevant traceback text, validation output, or screenshots.
+      render: text
+
