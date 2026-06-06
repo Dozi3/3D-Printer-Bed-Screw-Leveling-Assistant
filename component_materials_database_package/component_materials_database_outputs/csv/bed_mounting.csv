@@ -1,0 +1,12 @@
+bed_mount_id,printer_id,variant_id,bed_mount_type,mount_count,adjustable_bed,manual_bed_screws,levelling_wheels,spring_loaded,silicone_spacers,rigid_standoffs,kinematic_mount,shimmed_mount,mount_material,spacer_material,spring_material,bed_carrier_material,bed_carriage_type,notes,confidence,source_ids
+BM001,P001,-,fixed heated-bed mount,-,no,no,no,no,no,yes,-,no,-,-,-,-,moving Z bed,No user-facing bed wheels or manual tramming documented,medium,S001;S002
+BM002,P002,-,fixed heated-bed mount,-,no,no,no,no,no,yes,-,no,-,-,-,-,moving Y bed,Full-auto calibration; no stock hand-wheel levelling documented,medium,S003
+BM003,P003,V003/V004,fixed bed mount,-,no,no,no,no,no,yes,-,no,-,-,-,-,moving Y bed,Loadcell-based automatic first layer replaces manual bed-screw workflow,medium,S005;S006
+BM004,P004,-,fixed heated-bed mount,-,-,-,no,-,-,-,-,-,-,-,-,-,moving Y bed,Official sources expose CR-Touch auto levelling but not the mount stack,low,S010;S011
+BM005,P005,-,fixed heated-bed mount,-,no,no,no,no,no,yes,-,no,-,-,-,aluminium substrate,moving Z bed,Auto levelling with no manual bed knobs described,medium,S013
+BM006,P006,-,fixed bed; gantry-levelled,-,no,no,no,no,no,yes,-,no,-,-,-,-,fixed bed,"QGL corrects gantry, not bed screw preload",high,S015
+BM007,P007,-,heated bed with removable glass plate,clips,no,no,no,no,no,yes,-,no,-,-,-,-,moving Z bed,Active levelling compensates on glass plate; no bed wheels documented,medium,S016
+BM008,P008,-,fixed magnetic bed,-,no,no,no,no,no,yes,-,no,-,-,-,-,fixed bed,"Delta platform relies on loadcell/nozzle distance workflow, not bed screws",medium,S009
+BM009,P009,-,assisted-level removable-surface mount,-,yes,-,no,-,-,-,-,-,-,-,-,-,unknown,Source says autocalibration and assisted levelling; fastener details not public,low,S020
+BM010,P010,V005/V006,motorised bed-tilt platform,4,automatic,no,no,no,no,yes,-,no,-,-,-,cast aluminium,moving Z bed,Four ball-nut screws drive Z; tilt levelling is automatic,high,S021
+BM011,P011,-,spring-and-shim resin platform mount,-,automatic,no,no,yes,no,no,-,yes,aluminium alloy,shims,built-in springs,aluminium alloy,resin Z platform,Auto-level uses built-in shims/springs and mechanical sensor,high,S018;S019

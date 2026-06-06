@@ -1,0 +1,7 @@
+variant_id,printer_id,variant_name,variant_type,release_year,key_hardware_difference,bed_stack_difference,levelling_difference,source_ids
+V001,P001,X1C Combo,official variant,2022,Adds AMS to X1C,-,-,S001
+V002,P002,A1 Combo,official variant,2023,Adds AMS lite,-,-,S003
+V003,P003,MK4S Kit,official variant,2024,Self-assembly version,-,-,S005
+V004,P003,MK4S Assembled,official variant,2024,Factory assembled,-,-,S005
+V005,P010,BIG-60 IDEX,official variant,2024,Optional second print head,-,-,S021
+V006,P010,BIG-60 Enclosed,official variant,2024,Optional enclosure package,enclosure only,-,S021

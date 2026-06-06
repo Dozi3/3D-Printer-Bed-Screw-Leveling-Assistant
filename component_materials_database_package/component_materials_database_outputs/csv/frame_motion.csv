@@ -1,0 +1,11 @@
+frame_id,printer_id,variant_id,frame_material,gantry_material,linear_motion_type,rail_material,wheel_material,bed_motion_rail_type,frame_enclosure_material,stiffness_notes,thermal_expansion_notes,confidence,source_ids
+F001,P001,-,steel chassis,-,corexy belt motion,-,-,moving Z guides not disclosed,aluminium & glass shell,Steel chassis helps enclosure stiffness,Enclosed shell raises sensitivity to warm-soak drift,high,S002
+F002,P002,-,-,-,-,-,-,moving Y bed,open frame,Source stresses full-auto calibration more than structure,Open frame reduces chamber-warm effects,low,S003
+F003,P003,V003/V004,-,-,smooth rods,steel rods,-,moving Y bed guides,open frame,Rod-based motion is well proven but not enclosure-stabilised,Hot-bed-only system still benefits from hot mesh in practice,medium,S007
+F004,P004,-,-,-,X-axis linear rail,steel linear rail,-,moving Y bed,open frame,Official store highlights stiff X linear rail,Open frame gives low chamber thermal bias,medium,S011
+F005,P005,-,-,-,high-hardness linear hollow steel shafts,steel shafts,-,moving Z bed,enclosed chamber,Independent chamber heating improves dimensional consistency,Warm soak matters more than open bedslingers,high,S013
+F006,P006,-,-,-,CoreXY + full linear rails in official blog; product page corexy,steel rails,-,fixed bed,open frame,Fixed bed and quad-Z support large-area consistency,Open frame reduces chamber heat drift but increases draft sensitivity,medium,S015
+F007,P007,-,-,-,Cartesian gantry,-,-,moving Z bed,open frame,Mature professional frame with strong software compensation,Glass and open frame reduce magnetic-stack variables,medium,S016
+F008,P008,-,-,light delta motion system,delta kinematics,-,-,fixed bed,enclosed high-temp chamber,Delta keeps print stationary and motion mass low,Chamber heat is a first-order variable for calibration repeatability,high,S009
+F009,P009,-,robust industrial frame,-,industrial gantry,-,-,unknown,open industrial frame,Designed for large one-piece prints,Large-format warm-up and plate seating dominate,medium,S020
+F010,P010,V005/V006,30-series aluminium extrusion,-,large-format belt/rail system,Hiwin rails optional in family docs,-,moving Z bed,optional enclosure,Modular frame allows upgradeable motion options,Large bed size makes thermal gradient management critical,medium,S021

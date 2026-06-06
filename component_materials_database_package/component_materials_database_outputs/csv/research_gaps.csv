@@ -1,0 +1,12 @@
+printer_id,variant_id,component_area,missing_fields,confidence,reason,recommended_follow_up
+P001,-,bed core / mount stack,bed_core_material; thickness; mount_count; spacer_material; screw_pitch_mm,medium,Official Bambu sources disclose plate stack and probe system better than hotbed core and hardware stack,"Pull service manuals, exploded views and spare-part SKUs"
+P002,-,mount stack / fasteners,mount_count; fastener details; spacer stack,medium,"A1 marketing/spec pages focus on automation outcomes, not mechanical stack",Acquire service manual and part catalogue
+P003,V003/V004,bed core material,bed_core_material; thickness; heater stack,medium,Prusa publicly names MK52 heatbed but not alloy/thickness in cited sources,Use assembly manual PDF and spare-part pages in next pass
+P004,-,bed mount / screws,manual_bed_screws; screw_thread_size; spacer_material,low,Creality public docs are sparse on mount hardware,Use service parts and teardown corroboration
+P005,-,probe subtype / fasteners,exact probe materials; bed fasteners,medium,QIDI is good on platform and chamber data but still light on probe internals,Pull maintenance/service docs
+P006,-,plate stack revision history,bed-core material; exact plate/magnet layer; revision deltas,medium,Sovol public docs emphasise features over part-level drawings,Scrape official parts list and GitHub/Klipper configs
+P007,-,heated-bed core,heater stack; sub-bed material; clip hardware details,medium,UltiMaker exposes glass/probe data but not full heated-bed stack,Use service manual and part catalogue
+P008,-,HT90 bed stack,bed core material; sheet thickness; frame materials,medium,"HT90 product copy is strong on chamber/probe, not on subcomponents",Use detailed downloads/brochure pass
+P009,-,bed stack specifics,SWITCHPLATE material construction; sensor stack; platform mounts,low,"BigRep pages describe functions, not full part materials",Use brochure and replacement-part documentation
+P010,V005/V006,revision control,final v4 stock-vs-optional separation by region; exact rail option on shipped config,medium,Modix family sources mix default and optional components across pages,Cross-check final configurator snapshot and BOM
+P011,-,resin Z-lift internals,exact lead-screw spec; motor count; platform fasteners,medium,Elegoo public pages prioritise user experience rather than internal mechanics,Use service manual / teardown pass

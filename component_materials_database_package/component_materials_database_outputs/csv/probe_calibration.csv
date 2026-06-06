@@ -1,0 +1,12 @@
+probe_id,printer_id,variant_id,auto_bed_levelling,bed_mesh_supported,probe_type,probe_mount_location,probe_offsets_known,nozzle_contact_probe,load_cell,strain_gauge,inductive_probe,capacitive_probe,BLTouch_CRtouch_style,eddy_current_probe,optical_probe,lidar_probe,probe_interacts_with_surface_material,z_offset_auto,axis_twist_compensation_available,calibration_notes,confidence,source_ids
+PR001,P001,-,yes,yes,lidar,toolhead,-,no,no,no,no,no,no,no,no,yes,yes; alternative plates must remain LiDAR-compatible,yes,-,Dual ABL cross-checks LiDAR and analogue force sensors,high,S001
+PR002,P002,-,yes,yes,nozzle contact,nozzle/toolhead,-,yes,no,no,no,no,no,yes,no,no,yes; nozzle-contact depends on clean nozzle and plate state,yes,-,"A1 performs auto Z-offset, bed-level, resonance and flow calibration; eddy sensor is used for flow dynamics",high,S003
+PR003,P003,V003/V004,yes,yes,load cell,hotend heatsink,-,yes,yes,no,no,no,no,no,no,no,low,yes,-,Loadcell replaces manual first-layer/live-Z workflow,high,S006
+PR004,P004,-,yes,yes,BLTouch/CRTouch,toolhead,-,no,no,no,no,no,yes,no,no,no,low,yes,-,User manual explicitly states CR-Touch auto levelling,high,S011
+PR005,P005,-,yes,yes,unknown,-,-,-,no,no,-,-,no,no,no,no,unknown,yes,-,Official sources call out hands-free auto levelling and dual-sensor ABL without full sensor naming,medium,S013
+PR006,P006,-,yes,yes,inductive,toolhead/nozzle system,-,yes,no,no,yes,no,no,no,no,no,yes,yes,-,Official product page lists inductive sensor & pressure sensor; QGL is separate gantry routine,high,S015
+PR007,P007,-,yes,yes,capacitive,print head,-,no,no,no,no,yes,no,no,no,no,yes; glass is the calibrated datum,yes,-,Advanced active levelling scans multiple points with capacitive sensor,high,S016
+PR008,P008,-,yes,yes,load cell,bed/nozzle distance system,-,yes,yes,no,no,no,no,no,no,no,low,yes,-,Three high-precision loadcell sensors measure nozzle-to-sheet distance,high,S009
+PR009,P009,-,yes,yes,unknown,-,-,-,no,no,-,-,no,no,no,no,unknown,-,-,BigRep documents autocalibration and adaptive mesh bed levelling but not probe family in cited source,medium,S020
+PR010,P010,V005/V006,yes,yes,BLTouch/CRTouch,toolhead,-,no,no,no,no,no,yes,no,no,no,low,yes,-,Automatic bed shape probing over ~200 points and automatic bed tilt levelling,high,S021
+PR011,P011,-,yes,n/a,unknown,internal mechanical sensor system,-,no,no,no,no,no,no,no,no,no,n/a,yes,-,Automatic platform levelling uses built-in springs/shims and a mechanical sensor,high,S018;S019

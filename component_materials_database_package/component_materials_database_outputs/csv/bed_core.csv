@@ -1,0 +1,12 @@
+bed_core_id,printer_id,variant_id,bed_core_type,bed_core_material,bed_core_thickness_mm,bed_core_manufacturing_method,heater_type,heater_voltage_v,heater_power_w,max_bed_temp_c,bed_thermistor_type,bed_sensor_location,thermal_insulation_under_bed,known_thermal_warp_issue,notes,confidence,source_ids
+BC001,P001,-,heated bed under flexible steel plate,-,-,-,-,110/220,-,110/120,-,-,-,-,Build plate system documented more clearly than hotbed core,medium,S001;S002
+BC002,P002,-,heated bed under PEI plate,-,-,-,-,-,-,100,-,-,-,-,Official page lists compatible plates and max bed temp only,medium,S003
+BC003,P003,V003/V004,magnetic heatbed,-,-,-,-,-,-,-,-,-,-,-,"MK52 heatbed named, material not publicly stated in cited source",medium,S006;S007
+BC004,P004,-,heated bed,-,-,-,-,-,350,100,-,-,-,-,Manual/product pages expose max temp but not bed-core material,medium,S010;S011
+BC005,P005,-,aluminium substrate heating bed,aluminium substrate,-,-,-,100-240,-,120,-,-,-,-,Officially described as aluminium substrate heating bed,high,S013
+BC006,P006,-,AC heated bed under PEI steel plate,-,-,-,AC heated bed,-,150,100,-,-,-,-,Product page names AC heated bed but not core alloy or thickness,medium,S015
+BC007,P007,-,heated build plate under glass,-,-,-,-,-,-,-,-,-,-,-,"Official page documents glass build plate and active levelling, not heater stack material",medium,S016
+BC008,P008,-,magnetic heatbed,-,-,-,-,-,-,155,-,-,-,-,Pro HT90 page documents bed temperature and magnetic sheet ecosystem,medium,S009
+BC009,P009,-,heated removable print surface system,-,-,-,-,208-240,-,80,-,integrated sensors,-,-,SWITCHPLATE removable surface named; core material not stated in cited source,medium,S020
+BC010,P010,-,heated bed,Alcoa Mic-6 cast aluminium,6.35,milled cast plate,dual AC heater,-,2740,120/130,-,-,-,-,Generation-specific Modix sources disagree slightly on max bed temp across revisions; retain range in note,high,S021
+BC011,P011,-,resin build platform mount stack,aluminium alloy build plate,-,machined plate,n/a,-,-,n/a,-,mechanical sensor + shims/springs,n/a,-,"Resin printer: platform itself documented, not an FDM heated bed",high,S018;S019

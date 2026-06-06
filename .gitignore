@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Build and packaging outputs
+dist/
+dist-linux/
+dist-validation/
+*.build/
+*.dist/
+*.onefile-build/
+*.exe
+*.msi
+*.zip
+*.7z
+*.tmp
+nuitka-crash-report.xml
+
+# Local run artifacts
+build_onefile.log
+build_onefile_check.log
+STATUS_REPORT.md
+test save.json
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/

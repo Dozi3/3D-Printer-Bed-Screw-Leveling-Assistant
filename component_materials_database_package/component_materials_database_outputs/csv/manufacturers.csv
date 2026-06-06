@@ -1,0 +1,15 @@
+manufacturer_id,manufacturer_name,parent_company,country,website,active_status,years_active_known,product_categories,notes,source_ids
+M001,Bambu Lab,-,-,bambulab.com,current,-,hobby; prosumer,Official store and spec pages active,S001;S002;S003;S004
+M002,Prusa Research,Prusa Research a.s.,Czech Republic,prusa3d.com,current,-,hobby; prosumer; professional; research,"Official store, KB and Pro pages active",S005;S006;S007;S008;S009
+M003,Creality,-,-,creality.com,current,-,hobby; prosumer; resin; scanners,"Official site, store and wiki active",S010;S011
+M004,QIDI Tech,-,-,qidi3d.com,current,-,prosumer; professional,Official UK and global store/spec pages active,S013
+M005,Sovol,-,-,sovol3d.com,current,-,hobby; prosumer,Official store/blog/forum ecosystem active,S015
+M006,UltiMaker,UltiMaker,-,ultimaker.com,current,-,professional; industrial; education,Product pages and store/support active,S016
+M007,Elegoo,-,-,elegoo.com,current,-,hobby; prosumer; resin,Official global and UK stores active,S018;S019
+M008,BigRep,BigRep GmbH,Germany,bigrep.com,current,-,industrial; research; education,Official industrial product pages active,S020
+M009,Modix,Modix Modular Technologies LTD,-,modix3d.com,current,-,professional; industrial; research,Official tech-spec and product pages active,S021
+M010,Anycubic,-,-,anycubic.com,current,-,hobby; prosumer; resin,"Researched, not deeply normalised in this tranche",S012
+M011,Flashforge,-,-,flashforge.com,current,-,hobby; prosumer; education,"Researched, not deeply normalised in this tranche",S014
+M012,Raise3D,Raise 3D Technologies Inc,-,raise3d.com,current,-,professional; industrial,"Researched, not deeply normalised in this tranche",S017
+M013,Voron Design,-,-,vorondesign.com,current,-,hobby; prosumer; open-source kits,Family-level docs available; SKU/BOM pass still needed,S023
+M014,Rat Rig,-,-,ratrig.com,current,-,hobby; prosumer; kits,Family-level docs available; SKU/BOM pass still needed,S022

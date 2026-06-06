@@ -1,0 +1,12 @@
+chamber_id,printer_id,variant_id,enclosure_type,chamber_heated,chamber_max_temp_c,active_chamber_heater,passive_chamber_heat,chamber_sensor,chamber_sensor_type,insulation_material,door_panel_material,side_panel_material,top_panel_material,thermal_stability_notes,confidence,source_ids
+C001,P001,-,enclosed,no,-,no,yes,-,-,-,glass,aluminium/glass shell,glass,Enclosed system benefits from thermal soak; plate changes can shift LiDAR/nozzle interaction,medium,S001;S002
+C002,P002,-,open,no,n/a,no,no,camera only,low-frame-rate camera,n/a,n/a,n/a,n/a,Open-frame calibration is less chamber-biased and more draft-sensitive,high,S003
+C003,P003,V003/V004,open,no,n/a,no,no,-,-,n/a,n/a,n/a,n/a,Stock MK4S is open; enclosure is a separate ecosystem item,medium,S005;S007
+C004,P004,-,open,no,n/a,no,no,-,-,n/a,n/a,n/a,n/a,Open bedslinger; hot mesh still useful at higher bed temps,low,S010;S011
+C005,P005,-,enclosed,yes,60,yes,yes,yes,chamber temperature control,-,-,-,-,Active chamber heating materially improves repeatability for warp-prone polymers,high,S013
+C006,P006,-,open,no,n/a,no,no,-,-,n/a,n/a,n/a,n/a,"Fixed bed avoids moving-bed chamber disturbance, but open frame is draft-sensitive",medium,S015
+C007,P007,-,open,no,n/a,no,no,-,-,n/a,n/a,n/a,n/a,No enclosed heated chamber in stock cited source,medium,S016
+C008,P008,-,enclosed,yes,90,yes,yes,yes,chamber temperature control,-,enclosed panels,enclosed panels,enclosed panels,Actively heated chamber is one of the dominant repeatability variables on HT90,high,S009
+C009,P009,-,open industrial frame,no,n/a,no,no,-,-,n/a,n/a,n/a,n/a,Large-format open architecture emphasises bed prep and ambient control,medium,S020
+C010,P010,V005/V006,optional enclosure,optional,-,optional,optional,-,-,sealing strips in enclosure package,enclosure door,enclosure side panels,top lid when enclosed,Enclosure is optional; calibration regime depends heavily on whether enclosure is fitted,medium,S021
+C011,P011,-,enclosed resin body,no,n/a,no,no,-,-,-,resin-printer front door,metal/plastic body,lift cover,Thermal environment is less about chamber heat and more about resin and mechanics,medium,S018

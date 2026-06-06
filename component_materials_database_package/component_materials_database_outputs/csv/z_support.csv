@@ -1,0 +1,12 @@
+z_support_id,printer_id,variant_id,z_axis_count,z_drive_type,z_screw_type,z_screw_material,z_synchronisation,bed_supported_by,bed_carriage_material,z_frame_material,anti_backlash_nuts,z_tilt_adjustment,independent_z_motors,gantry_tramming_method,notes,confidence,source_ids
+Z001,P001,-,-,-,-,-,-,moving heated bed,-,steel chassis,-,no,-,factory fixed + mesh,Official sources do not disclose full Z stack,low,S002
+Z002,P002,-,-,-,-,-,-,moving heated bed,-,-,-,no,-,full-auto calibration,A1 page focuses on calibration outcomes rather than Z hardware,low,S003
+Z003,P003,V003/V004,2,threaded + smooth rods,threaded rods,-,dual motors,moving heated bed,-,frame uses rods and structural frame,-,no,yes,loadcell + mesh,MK4S glossary states two Z motors and threaded/smooth rods,high,S007
+Z004,P004,-,-,-,-,-,-,moving heated bed,-,-,-,-,-,CR-Touch mesh,Official sources do not expose Z-count in this pass,low,S011
+Z005,P005,-,2,dual lead screw motors,lead screws,-,independent dual motors,moving heated bed,aluminium substrate,-,-,automatic tilt levelling,yes,hands-free automatic levelling,Officially documented dual independent lead screw motors,high,S013
+Z006,P006,-,4,quad motor gantry lift,-,-,four independent Z motors,fixed bed,-,-,-,quad gantry levelling,yes,QGL,Flying-gantry architecture; bed remains fixed,high,S015
+Z007,P007,-,-,-,-,-,-,moving heated bed,-,-,-,automatic levelling compensation,-,advanced active levelling,"Official sources in this pass describe levelling, not Z hardware count",low,S016
+Z008,P008,-,3,delta tower motion,delta linear systems,-,coordinated delta kinematics,fixed bed,-,-,n/a,no,n/a,three loadcell sensors for first layer,Printed object remains stationary in delta system,medium,S009
+Z009,P009,-,-,-,-,-,-,unknown,-,robust industrial frame,-,adaptive levelling,-,autocalibration,Source emphasises automation more than Z hardware specifics,low,S020
+Z010,P010,V005/V006,4,ball-nut screws with stepper/belt gear system,ball-nut screws,-,dedicated motor per screw,moving heated bed,cast aluminium,aluminium extrusion frame,-,automatic,yes,automatic bed tilt levelling,Strongly documented large-format Z system,high,S021
+Z011,P011,-,1,resin Z lift,lead screw / lift system,-,single Z lift,resin build platform,aluminium alloy,-,-,automatic platform levelling,no,mechanical-sensor auto-level,Resin machine; platform rather than bed is the moving Z element,medium,S018;S019

@@ -1,0 +1,13 @@
+impact_id,printer_id,variant_id,component_area,component_name,impact_category,impact_level,rationale_short,confidence,source_ids
+I001,P001,-,probe hardware,LiDAR + analogue force dual ABL,probing bias,high,Plate changes and nozzle state can alter measurement chain,high,S001;S002
+I002,P002,-,probe hardware,nozzle-contact + eddy-assisted calibration stack,mesh repeatability,high,Clean nozzle and plate state are critical for repeatable auto Z,high,S003
+I003,P003,V003/V004,probe hardware,loadcell,user adjustment repeatability,high,Removes live-Z and manual sheet-profile dependence,high,S006
+I004,P004,-,build surface,PEI flex plate on bedslinger,thermal expansion,medium,Moving-Y bed and flex-plate seating can introduce repeatability drift,medium,S010;S011
+I005,P005,-,chamber / bed core,active chamber heating + aluminium substrate bed,thermal gradient,high,Chamber control directly stabilises warp-prone materials and mesh,high,S013
+I006,P006,-,Z support,quad gantry levelling with four Z motors,Z-axis synchronisation,high,Gantry squareness dominates first-layer consistency on flying-gantry machines,high,S015
+I007,P007,-,build surface/probe,glass plate + capacitive active levelling,probing bias,medium,"Stable datum surface, but glass discourages overly aggressive mechanical correction",high,S016
+I008,P008,-,chamber,90 °C actively heated chamber,thermal expansion,high,Warm-soak and controlled environment dominate repeatability,high,S009
+I009,P009,-,large-format bed stack,SWITCHPLATE removable surface,flatness baseline,medium,Large removable surfaces improve serviceability but increase seating sensitivity,medium,S020
+I010,P010,V005/V006,bed support,6.35 mm cast aluminium bed + automatic tilt,flatness baseline,high,Large-format stiffness and automatic tilt correction strongly aid solver stability,high,S021
+I011,P011,-,resin platform,built-in shims/springs + mechanical sensor,user adjustment repeatability,medium,Auto platform levelling removes most manual tram steps,high,S018;S019
+I012,-,-,open-source family,Voron QGL / Rat Rig Beacon ecosystem,mesh repeatability,high,Community platforms expose advanced probe-and-tram workflows that can outperform stock consumer calibration when configured correctly,medium,S022;S023

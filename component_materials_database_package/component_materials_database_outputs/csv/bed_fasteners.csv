@@ -1,0 +1,12 @@
+bed_fastener_id,printer_id,variant_id,screw_count,screw_location_pattern,screw_thread_size,screw_pitch_mm,screw_material,nut_material,insert_material,wheel_material,adjustment_access,clockwise_effect_known,backlash_or_slop_notes,notes,confidence,source_ids
+BF001,P001,-,-,-,-,-,-,-,-,-,none,no,-,Stock configuration is not a hand-wheel bed-screw printer,medium,S001;S002
+BF002,P002,-,-,-,-,-,-,-,-,-,none,no,-,Stock configuration is not a hand-wheel bed-screw printer,medium,S003
+BF003,P003,V003/V004,-,-,-,-,-,-,-,-,none,no,-,Manual first-layer and sheet profiles replaced by loadcell workflow,medium,S006
+BF004,P004,-,-,-,-,-,-,-,-,-,-,-,-,Public sources do not expose bed-screw details,low,S010;S011
+BF005,P005,-,-,-,-,-,-,-,-,-,none,no,-,Public sources do not expose bed-screw details,low,S013
+BF006,P006,-,-,-,-,-,-,-,-,-,none,no,-,Gantry levelling is motor-driven; no user bed screws documented,medium,S015
+BF007,P007,-,-,-,-,-,-,-,-,-,none,no,-,S5 uses active levelling rather than bed wheels,medium,S016
+BF008,P008,-,-,-,-,-,-,-,-,-,none,no,-,HT90 uses loadcell first-layer calibration,medium,S009
+BF009,P009,-,-,-,-,-,-,-,-,-,-,-,-,Fastener specifics not public in cited sources,low,S020
+BF010,P010,V005/V006,4 motor-driven ball-screw stations,rectangular Z-corner pattern,-,-,-,-,-,-,automatic,no,Automatic tilt correction; no hand-turn workflow,Bed shape probing and tilt levelling are automatic,high,S021
+BF011,P011,-,-,-,-,-,-,-,-,-,automatic internal,no,Springs and shims are internal to platform assembly,"Resin platform is auto-levelled, not hand-trammed",high,S018;S019

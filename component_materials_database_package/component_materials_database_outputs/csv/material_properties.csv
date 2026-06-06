@@ -1,0 +1,9 @@
+material_id,material_name_standardised,material_category,density_g_cm3,youngs_modulus_gpa,thermal_conductivity_w_mk,coefficient_thermal_expansion_um_m_c,max_service_temp_c,creep_risk,compression_set_risk,magnetic,corrosion_risk,notes,source_ids
+MAT001,aluminium alloy,bed core / frame,-,-,-,-,-,low,n/a,no,medium,Placeholder row; handbook constants intentionally deferred until a dedicated materials-source pass,-
+MAT002,cast aluminium plate,bed core,-,-,-,-,-,low,n/a,no,medium,Placeholder row; model-specific use captured in printer tables,-
+MAT003,spring steel,removable plate / fastener,-,-,-,-,-,low,n/a,yes,medium,Placeholder row; used widely for flexible plates,-
+MAT004,PEI,coating / build surface,-,-,-,-,-,medium,n/a,no,low,"Placeholder row; adhesion surface, not structural core",-
+MAT005,glass,build surface,-,-,-,-,-,low,n/a,no,low,Placeholder row; avoid forcing corners in solver workflows,-
+MAT006,silicone,heater / spacer,-,-,-,-,-,medium,medium,no,low,Placeholder row; important where silicone spacers or heaters are disclosed,-
+MAT007,steel chassis,frame,-,-,-,-,-,low,n/a,yes,medium,Placeholder row; chassis stiffness matters for enclosed CoreXY systems,-
+MAT008,aluminium alloy build plate,resin platform,-,-,-,-,-,low,n/a,no,medium,Placeholder row for resin build platforms,-

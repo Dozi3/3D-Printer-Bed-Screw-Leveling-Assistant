@@ -1,0 +1,12 @@
+printer_id,manufacturer_id,manufacturer_name,model_name,model_family,release_year,last_known_sale_year,lifecycle_status,printer_category,printer_kinematics,bed_motion_type,official_product_url,official_manual_url,notes,source_ids
+P001,M001,Bambu Lab,X1 Carbon,X1 Series,2022,2026,current,prosumer,CoreXY,moving Z bed,Table16:S001,-,Dual auto bed levelling; LiDAR cross-check with analogue force sensor,S001;S002
+P002,M001,Bambu Lab,A1,A1 Series,2023,2026,current,hobby,bedslinger Cartesian,moving Y bed,Table16:S003,-,Full-auto calibration; open-frame bedslinger,S003
+P003,M002,Prusa Research,Original Prusa MK4S,MK4 family,2024,2026,current,prosumer,bedslinger Cartesian,moving Y bed,Table16:S005,Table16:S007,Magnetic heatbed with removable steel sheet; loadcell-based first layer,S005;S006;S007
+P004,M003,Creality,Ender-3 V3 KE,Ender-3 V3 family,2023,2026,current,hobby,bedslinger Cartesian,moving Y bed,Table16:S010,Table16:S011,CR-Touch auto levelling; PEI system,S010;S011
+P005,M004,QIDI Tech,Q1 Pro,Q1 family,2024,2026,current,prosumer,CoreXY,moving Z bed,Table16:S013,-,Active chamber heating; aluminium substrate bed,S013
+P006,M005,Sovol,SV08,SV family,2024,2026,current,prosumer,CoreXY,fixed bed,Table16:S015,-,Voron-inspired flying-gantry machine with quad gantry levelling,S015
+P007,M006,UltiMaker,S5,S line,2018,2026,current,professional,Cartesian gantry,moving Z bed,Table16:S016,-,Glass build plate with advanced active levelling,S016
+P008,M002,Prusa Research,Prusa Pro HT90,HT line,2023,2026,current,professional,Delta,fixed bed,Table16:S009,-,Actively heated chamber and three loadcell sensors,S009
+P009,M008,BigRep,ONE.5X,ONE family,2024,2026,current,industrial,gantry extrusion,unknown,Table16:S020,-,One-cubic-metre large-format system with heated removable print surface,S020
+P010,M009,Modix,BIG-60 v4,BIG family,2024,2026,current,industrial,Cartesian gantry,moving Z bed,Table16:S021,-,Large-format modular kit; generation 4 platform,S021
+P011,M007,Elegoo,Saturn 4 Ultra,Saturn family,2024,2026,current,hobby,resin Z-lift,resin build platform,Table16:S018,-,Resin platform with one-click automatic levelling,S018;S019
