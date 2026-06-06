@@ -47,6 +47,10 @@ function Resolve-ProjectPython {
         return @{ Exe = $posixVenv; Args = @(); Source = "workspace .venv" }
     }
 
+    if ($env:GITHUB_ACTIONS -eq "true" -and (Get-Command python -ErrorAction SilentlyContinue)) {
+        return @{ Exe = "python"; Args = @(); Source = "python on PATH from GitHub Actions" }
+    }
+
     if (-not $PreferPython3Command) {
         foreach ($version in @("3.13", "3.12", "3")) {
             if (Test-PyLauncherVersion $version) {

@@ -25,6 +25,8 @@ class BuildScriptTests(unittest.TestCase):
         self.assertIn(".venv/bin/python", text)
         self.assertIn("3.13", text)
         self.assertIn("3.12", text)
+        self.assertIn("GITHUB_ACTIONS", text)
+        self.assertIn("python on PATH from GitHub Actions", text)
         self.assertIn("python", text)
 
     def test_validation_helper_runs_expected_gates(self) -> None:
