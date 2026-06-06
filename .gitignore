@@ -15,6 +15,7 @@ env/
 dist/
 dist-linux/
 dist-validation/
+dist-release/
 *.build/
 *.dist/
 *.onefile-build/

@@ -6,6 +6,27 @@ Bed Screw Solver V4 is a local desktop utility for analysing a regular bed mesh,
 
 V4 keeps the V2 plane-fit baseline solver as the primary recommendation path, keeps the physical-response model clearly labelled as heuristic / advisory, adds saved per-project calibration trials, and keeps the component-library layer as seed suggestion data.
 
+## Download And Run
+
+For Windows users who do not want to install Python or compile anything:
+
+1. Open the [latest release](https://github.com/Dozi3/3D-Printer-Bed-Screw-Leveling-Assistant/releases/latest).
+2. Download `BedScrewSolverV4-Windows-x64.exe`.
+3. Save it anywhere convenient, such as Downloads or Desktop.
+4. Double-click `BedScrewSolverV4-Windows-x64.exe`.
+
+If Windows SmartScreen warns that the app is from an unknown publisher, choose `More info` and then `Run anyway` if you trust this repository. The executable is unsigned, so this warning is expected for now.
+
+No installer is required. Project files are saved as local JSON files only when you choose to save them.
+
+To run from source instead:
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe main.py
+```
+
 ## What V4 Does
 - Fits a best plane to a pasted or imported regular mesh.
 - Computes baseline screw adjustments from the plane only.
@@ -131,7 +152,10 @@ Mesh preview panels can switch between 2D and 3D. The 3D view supports drag-to-o
 - `-` means unknown and `n/a` means not applicable; neither becomes a solver default.
 - Profile application never changes mesh data, screw positions, row order, reference screw, or coordinate conventions.
 
-## Build
+## Build From Source
+
+Most users should download the Windows executable from the [latest release](https://github.com/Dozi3/3D-Printer-Bed-Screw-Leveling-Assistant/releases/latest). Use this section only if you want to validate or build the app yourself.
+
 Use a workspace-local virtual environment for development and validation:
 
 ```powershell

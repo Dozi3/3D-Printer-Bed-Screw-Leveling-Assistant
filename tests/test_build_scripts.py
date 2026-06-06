@@ -37,6 +37,12 @@ class BuildScriptTests(unittest.TestCase):
         self.assertIn("unittest", text)
         self.assertIn("build_onefile.ps1", text)
 
+    def test_onefile_build_respects_output_dir(self) -> None:
+        text = (ROOT / "build_onefile.ps1").read_text(encoding="utf-8")
+
+        self.assertIn('"--output-dir=$distDir"', text)
+        self.assertNotIn('"--output-dir=dist"', text)
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -157,7 +157,7 @@ try {
         "--windows-console-mode=disable",
         "--include-windows-runtime-dlls=yes",
         "--assume-yes-for-downloads",
-        "--output-dir=dist",
+        "--output-dir=$distDir",
         "--output-filename=BedScrewSolverV4",
         "main.py"
     )
