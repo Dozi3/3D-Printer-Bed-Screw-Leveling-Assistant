@@ -1,6 +1,7 @@
 # Bed Screw Solver V4
 
 [![CI](https://github.com/Dozi3/3D-Printer-Bed-Screw-Leveling-Assistant/actions/workflows/ci.yml/badge.svg)](https://github.com/Dozi3/3D-Printer-Bed-Screw-Leveling-Assistant/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Bed Screw Solver V4 is a local desktop utility for analysing a regular bed mesh, separating global tilt from local warp, and turning the fitted plane into per-screw adjustment guidance.
 
@@ -220,3 +221,7 @@ V4 does not add Linux onefile packaging.
 - Probe coverage can be partial; residual interpretation is weaker outside the probed area.
 - Shim workflows are approximate in a turn-based UI and should be interpreted as mm-equivalent support change.
 - Missing, custom, or unusual hardware and temperature metadata reduce confidence in the heuristic model, but do not change the plane-fit target math.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE).

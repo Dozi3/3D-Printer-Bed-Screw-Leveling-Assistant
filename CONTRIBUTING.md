@@ -22,8 +22,9 @@ Run the full validation gate before opening a pull request:
 - Keep solver behavior changes covered by focused tests.
 - Treat baseline plane-fit output as the primary regression contract.
 - Keep physical-response behavior clearly advisory.
-- Do not commit `.venv`, `dist`, `dist-linux`, `dist-validation`, archives, or executable outputs.
+- Do not commit `.venv`, `dist`, `dist-linux`, `dist-validation`, `dist-release`, archives, or executable outputs.
 - Explain user-visible behavior changes in the PR description.
+- By contributing, you agree that your contribution is provided under the project license in [LICENSE](LICENSE).
 
 ## Reporting Issues
 
